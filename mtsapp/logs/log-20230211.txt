@@ -1,0 +1,582 @@
+2023-02-11 00:03:09.276 +03:00 [INF]  Application  Starting.
+2023-02-11 00:03:13.150 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 00:03:13.745 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 00:03:13.746 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 00:03:13.747 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 00:03:13.755 +03:00 [INF] Hosting environment: Development
+2023-02-11 00:03:13.759 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplemts\mtsapp
+2023-02-11 00:03:15.153 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 00:03:15.306 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 160.4315ms
+2023-02-11 00:03:15.508 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 00:03:15.729 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 221.3142ms
+2023-02-11 00:09:29.862 +03:00 [INF]  Application  Starting.
+2023-02-11 00:10:24.396 +03:00 [INF]  Application  Starting.
+2023-02-11 00:10:27.829 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 00:10:28.517 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 00:10:28.518 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 00:10:28.519 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 00:10:28.520 +03:00 [INF] Hosting environment: Development
+2023-02-11 00:10:28.520 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplemts\mtsapp
+2023-02-11 00:10:29.990 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 00:10:30.217 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 233.6068ms
+2023-02-11 00:10:30.426 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 00:10:30.661 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 235.3699ms
+2023-02-11 00:11:09.351 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Home/accounts application/json-patch+json 156
+2023-02-11 00:11:09.359 +03:00 [INF] CORS policy execution failed.
+2023-02-11 00:11:09.361 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 00:11:09.364 +03:00 [INF] CORS policy execution failed.
+2023-02-11 00:11:09.364 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 00:11:09.434 +03:00 [INF] Executing endpoint 'mtsapp.Controllers.HomeController.SaveAccountDataAsync (mtsapp)'
+2023-02-11 00:11:09.494 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(mtsDAL.ViewModels.CreateAccountView) on controller mtsapp.Controllers.HomeController (mtsapp).
+2023-02-11 00:11:09.899 +03:00 [INF] Create Account {"HolderUserId":"123467890a","BankName":"KCB","BranchName":"Westlands","SwiftCode":"1001a","AccountType":"Current","Balance":12000,"$type":"CreateAccountView"}
+2023-02-11 00:11:10.059 +03:00 [FTL] Create Account error
+2023-02-11 00:11:10.337 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2023-02-11 00:11:10.350 +03:00 [INF] Executed action mtsapp.Controllers.HomeController.SaveAccountDataAsync (mtsapp) in 849.4246ms
+2023-02-11 00:11:10.351 +03:00 [INF] Executed endpoint 'mtsapp.Controllers.HomeController.SaveAccountDataAsync (mtsapp)'
+2023-02-11 00:11:10.355 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Home/accounts application/json-patch+json 156 - 400 - text/plain;+charset=utf-8 1003.7254ms
+2023-02-11 00:18:18.818 +03:00 [INF]  Application  Starting.
+2023-02-11 00:18:22.016 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 00:18:22.655 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 00:18:22.656 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 00:18:22.657 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 00:18:22.657 +03:00 [INF] Hosting environment: Development
+2023-02-11 00:18:22.658 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplemts\mtsapp
+2023-02-11 00:18:24.123 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 00:18:24.279 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 164.6724ms
+2023-02-11 00:18:24.467 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 00:18:24.691 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 223.7027ms
+2023-02-11 00:19:10.157 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Home/accounts application/json-patch+json 157
+2023-02-11 00:19:10.164 +03:00 [INF] CORS policy execution failed.
+2023-02-11 00:19:10.165 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 00:19:10.169 +03:00 [INF] CORS policy execution failed.
+2023-02-11 00:19:10.169 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 00:19:10.219 +03:00 [INF] Executing endpoint 'mtsapp.Controllers.HomeController.SaveAccountDataAsync (mtsapp)'
+2023-02-11 00:19:10.260 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(mtsDAL.ViewModels.CreateAccountView) on controller mtsapp.Controllers.HomeController (mtsapp).
+2023-02-11 00:19:10.685 +03:00 [INF] Create Account {"HolderUserId":"1234567890a","BankName":"KCB","BranchName":"Westlands","SwiftCode":"1001a","AccountType":"Current","Balance":12000,"$type":"CreateAccountView"}
+2023-02-11 00:19:10.881 +03:00 [WRN] 'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2023-02-11 00:19:12.037 +03:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-02-11 00:19:12.602 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2023-02-11 00:19:12.641 +03:00 [INF] Executed action mtsapp.Controllers.HomeController.SaveAccountDataAsync (mtsapp) in 2374.7096ms
+2023-02-11 00:19:12.644 +03:00 [INF] Executed endpoint 'mtsapp.Controllers.HomeController.SaveAccountDataAsync (mtsapp)'
+2023-02-11 00:19:12.650 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Home/accounts application/json-patch+json 157 - 200 9 application/json;+charset=utf-8 2493.7095ms
+2023-02-11 00:19:32.528 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Home/accounts application/json-patch+json 157
+2023-02-11 00:19:32.532 +03:00 [INF] CORS policy execution failed.
+2023-02-11 00:19:32.534 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 00:19:32.535 +03:00 [INF] CORS policy execution failed.
+2023-02-11 00:19:32.536 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 00:19:32.539 +03:00 [INF] Executing endpoint 'mtsapp.Controllers.HomeController.SaveAccountDataAsync (mtsapp)'
+2023-02-11 00:19:32.547 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(mtsDAL.ViewModels.CreateAccountView) on controller mtsapp.Controllers.HomeController (mtsapp).
+2023-02-11 00:19:32.550 +03:00 [INF] Create Account {"HolderUserId":"1234567890b","BankName":"KCB","BranchName":"Westlands","SwiftCode":"1001b","AccountType":"Current","Balance":13000,"$type":"CreateAccountView"}
+2023-02-11 00:19:32.596 +03:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-02-11 00:19:32.622 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2023-02-11 00:19:32.623 +03:00 [INF] Executed action mtsapp.Controllers.HomeController.SaveAccountDataAsync (mtsapp) in 75.3235ms
+2023-02-11 00:19:32.624 +03:00 [INF] Executed endpoint 'mtsapp.Controllers.HomeController.SaveAccountDataAsync (mtsapp)'
+2023-02-11 00:19:32.625 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Home/accounts application/json-patch+json 157 - 200 9 application/json;+charset=utf-8 96.6690ms
+2023-02-11 00:19:46.131 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Home/accounts application/json-patch+json 157
+2023-02-11 00:19:46.132 +03:00 [INF] CORS policy execution failed.
+2023-02-11 00:19:46.133 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 00:19:46.134 +03:00 [INF] CORS policy execution failed.
+2023-02-11 00:19:46.135 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 00:19:46.139 +03:00 [INF] Executing endpoint 'mtsapp.Controllers.HomeController.SaveAccountDataAsync (mtsapp)'
+2023-02-11 00:19:46.140 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(mtsDAL.ViewModels.CreateAccountView) on controller mtsapp.Controllers.HomeController (mtsapp).
+2023-02-11 00:19:46.144 +03:00 [INF] Create Account {"HolderUserId":"1234567890c","BankName":"KCB","BranchName":"Westlands","SwiftCode":"1001c","AccountType":"Current","Balance":14000,"$type":"CreateAccountView"}
+2023-02-11 00:19:46.156 +03:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-02-11 00:19:46.177 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2023-02-11 00:19:46.181 +03:00 [INF] Executed action mtsapp.Controllers.HomeController.SaveAccountDataAsync (mtsapp) in 40.3073ms
+2023-02-11 00:19:46.189 +03:00 [INF] Executed endpoint 'mtsapp.Controllers.HomeController.SaveAccountDataAsync (mtsapp)'
+2023-02-11 00:19:46.198 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Home/accounts application/json-patch+json 157 - 200 9 application/json;+charset=utf-8 67.0411ms
+2023-02-11 00:19:57.493 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Home/accounts application/json-patch+json 157
+2023-02-11 00:19:57.493 +03:00 [INF] CORS policy execution failed.
+2023-02-11 00:19:57.496 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 00:19:57.499 +03:00 [INF] CORS policy execution failed.
+2023-02-11 00:19:57.501 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 00:19:57.504 +03:00 [INF] Executing endpoint 'mtsapp.Controllers.HomeController.SaveAccountDataAsync (mtsapp)'
+2023-02-11 00:19:57.515 +03:00 [INF] Route matched with {action = "SaveAccountData", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] SaveAccountDataAsync(mtsDAL.ViewModels.CreateAccountView) on controller mtsapp.Controllers.HomeController (mtsapp).
+2023-02-11 00:19:57.521 +03:00 [INF] Create Account {"HolderUserId":"1234567890d","BankName":"KCB","BranchName":"Westlands","SwiftCode":"1001d","AccountType":"Current","Balance":15000,"$type":"CreateAccountView"}
+2023-02-11 00:19:57.524 +03:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-02-11 00:19:57.560 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2023-02-11 00:19:57.563 +03:00 [INF] Executed action mtsapp.Controllers.HomeController.SaveAccountDataAsync (mtsapp) in 42.5842ms
+2023-02-11 00:19:57.565 +03:00 [INF] Executed endpoint 'mtsapp.Controllers.HomeController.SaveAccountDataAsync (mtsapp)'
+2023-02-11 00:19:57.567 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Home/accounts application/json-patch+json 157 - 200 9 application/json;+charset=utf-8 74.3029ms
+2023-02-11 00:20:07.067 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Home/accounts - -
+2023-02-11 00:20:07.072 +03:00 [INF] Executing endpoint 'mtsapp.Controllers.HomeController.GetAccountDataAsync (mtsapp)'
+2023-02-11 00:20:07.078 +03:00 [INF] Route matched with {action = "GetAccountData", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[mtsDAL.ViewModels.ListResult`1[mtsDAL.ViewModels.AccountView]]] GetAccountDataAsync() on controller mtsapp.Controllers.HomeController (mtsapp).
+2023-02-11 00:20:07.132 +03:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-02-11 00:20:07.390 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results.
+2023-02-11 00:20:07.463 +03:00 [INF] Executing OkObjectResult, writing value of type 'mtsDAL.ViewModels.ListResult`1[[mtsDAL.ViewModels.AccountView, mtsDAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-02-11 00:20:07.508 +03:00 [INF] Executed action mtsapp.Controllers.HomeController.GetAccountDataAsync (mtsapp) in 428.0543ms
+2023-02-11 00:20:07.509 +03:00 [INF] Executed endpoint 'mtsapp.Controllers.HomeController.GetAccountDataAsync (mtsapp)'
+2023-02-11 00:20:07.511 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Home/accounts - - - 200 2191 application/json;+charset=utf-8 443.6059ms
+2023-02-11 00:22:36.329 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Home/transfers application/json-patch+json 394
+2023-02-11 00:22:36.333 +03:00 [INF] CORS policy execution failed.
+2023-02-11 00:22:36.334 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 00:22:36.335 +03:00 [INF] CORS policy execution failed.
+2023-02-11 00:22:36.339 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 00:22:36.340 +03:00 [INF] Executing endpoint 'mtsapp.Controllers.HomeController.CreateTransactionAsync (mtsapp)'
+2023-02-11 00:22:36.345 +03:00 [INF] Route matched with {action = "CreateTransaction", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Int32]] CreateTransactionAsync(mtsDAL.ViewModels.CreateTransaction) on controller mtsapp.Controllers.HomeController (mtsapp).
+2023-02-11 00:22:36.373 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2023-02-11 00:22:36.402 +03:00 [INF] Executed action mtsapp.Controllers.HomeController.CreateTransactionAsync (mtsapp) in 55.2428ms
+2023-02-11 00:22:36.405 +03:00 [INF] Executed endpoint 'mtsapp.Controllers.HomeController.CreateTransactionAsync (mtsapp)'
+2023-02-11 00:22:36.410 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Home/transfers application/json-patch+json 394 - 400 394 application/problem+json;+charset=utf-8 80.3060ms
+2023-02-11 00:24:25.502 +03:00 [INF]  Application  Starting.
+2023-02-11 00:24:29.179 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 00:24:29.783 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 00:24:29.783 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 00:24:29.784 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 00:24:29.784 +03:00 [INF] Hosting environment: Development
+2023-02-11 00:24:29.784 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplemts\mtsapp
+2023-02-11 00:24:31.403 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 00:24:31.626 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 225.8044ms
+2023-02-11 00:24:31.905 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 00:24:32.118 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 213.6567ms
+2023-02-11 00:24:38.074 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Home/accounts - -
+2023-02-11 00:24:38.182 +03:00 [INF] Executing endpoint 'mtsapp.Controllers.HomeController.GetAccountDataAsync (mtsapp)'
+2023-02-11 00:24:38.215 +03:00 [INF] Route matched with {action = "GetAccountData", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[mtsDAL.ViewModels.ListResult`1[mtsDAL.ViewModels.AccountView]]] GetAccountDataAsync() on controller mtsapp.Controllers.HomeController (mtsapp).
+2023-02-11 00:24:38.525 +03:00 [WRN] 'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2023-02-11 00:24:39.511 +03:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-02-11 00:24:39.827 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results.
+2023-02-11 00:24:39.894 +03:00 [INF] Executing OkObjectResult, writing value of type 'mtsDAL.ViewModels.ListResult`1[[mtsDAL.ViewModels.AccountView, mtsDAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-02-11 00:24:40.155 +03:00 [INF] Executed action mtsapp.Controllers.HomeController.GetAccountDataAsync (mtsapp) in 1930.286ms
+2023-02-11 00:24:40.160 +03:00 [INF] Executed endpoint 'mtsapp.Controllers.HomeController.GetAccountDataAsync (mtsapp)'
+2023-02-11 00:24:40.164 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Home/accounts - - - 200 2191 application/json;+charset=utf-8 2089.7726ms
+2023-02-11 00:26:26.184 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Home/transfers application/json-patch+json 396
+2023-02-11 00:26:26.188 +03:00 [INF] CORS policy execution failed.
+2023-02-11 00:26:26.189 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 00:26:26.191 +03:00 [INF] CORS policy execution failed.
+2023-02-11 00:26:26.191 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 00:26:26.194 +03:00 [INF] Executing endpoint 'mtsapp.Controllers.HomeController.CreateTransactionAsync (mtsapp)'
+2023-02-11 00:26:26.217 +03:00 [INF] Route matched with {action = "CreateTransaction", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Int32]] CreateTransactionAsync(mtsDAL.ViewModels.CreateTransaction) on controller mtsapp.Controllers.HomeController (mtsapp).
+2023-02-11 00:26:36.787 +03:00 [INF] Create Transaction {"TransactionType":"Debit","SenderBankName":"KCB","SenderBranchName":"Westlands","SenderBankSwiftCode":"1001a","SenderAccountNumber":368376669,"SenderAmount":13000,"Charges":1000,"Tarrif":0,"Tax":0,"ReceiverBankName":"KCB","ReceiverBranchName":"Westlands","ReceiverBankSwiftCode":"1001b","ReceiverAccountNumber":169253237,"ReceiverAmount":12000,"$type":"CreateTransaction"}
+2023-02-11 00:26:44.263 +03:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-02-11 00:26:57.873 +03:00 [INF] Executing OkObjectResult, writing value of type 'mtsDAL.ViewModels.TransactionView'.
+2023-02-11 00:26:57.894 +03:00 [INF] Executed action mtsapp.Controllers.HomeController.CreateTransactionAsync (mtsapp) in 31676.0225ms
+2023-02-11 00:26:57.895 +03:00 [INF] Executed endpoint 'mtsapp.Controllers.HomeController.CreateTransactionAsync (mtsapp)'
+2023-02-11 00:26:57.900 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Home/transfers application/json-patch+json 396 - 200 716 application/json;+charset=utf-8 31715.7100ms
+2023-02-11 00:31:47.795 +03:00 [INF]  Application  Starting.
+2023-02-11 00:31:51.637 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 00:31:52.287 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 00:31:52.287 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 00:31:52.288 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 00:31:52.288 +03:00 [INF] Hosting environment: Development
+2023-02-11 00:31:52.289 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplemts\mtsapp
+2023-02-11 00:31:53.573 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 00:31:53.722 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 156.8283ms
+2023-02-11 00:31:53.928 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 00:31:54.134 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 206.7292ms
+2023-02-11 00:32:17.225 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Home/accounts - -
+2023-02-11 00:32:17.294 +03:00 [INF] Executing endpoint 'mtsapp.Controllers.HomeController.GetAccountDataAsync (mtsapp)'
+2023-02-11 00:32:17.336 +03:00 [INF] Route matched with {action = "GetAccountData", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[mtsDAL.ViewModels.ListResult`1[mtsDAL.ViewModels.AccountView]]] GetAccountDataAsync() on controller mtsapp.Controllers.HomeController (mtsapp).
+2023-02-11 00:32:17.615 +03:00 [WRN] 'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2023-02-11 00:32:18.582 +03:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-02-11 00:32:18.962 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results.
+2023-02-11 00:32:19.046 +03:00 [INF] Executing OkObjectResult, writing value of type 'mtsDAL.ViewModels.ListResult`1[[mtsDAL.ViewModels.AccountView, mtsDAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-02-11 00:32:19.290 +03:00 [INF] Executed action mtsapp.Controllers.HomeController.GetAccountDataAsync (mtsapp) in 1942.3183ms
+2023-02-11 00:32:19.296 +03:00 [INF] Executed endpoint 'mtsapp.Controllers.HomeController.GetAccountDataAsync (mtsapp)'
+2023-02-11 00:32:19.301 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Home/accounts - - - 200 2191 application/json;+charset=utf-8 2076.1086ms
+2023-02-11 00:33:31.746 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Home/transfers application/json-patch+json 369
+2023-02-11 00:33:31.750 +03:00 [INF] CORS policy execution failed.
+2023-02-11 00:33:31.751 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 00:33:31.760 +03:00 [INF] CORS policy execution failed.
+2023-02-11 00:33:31.760 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 00:33:31.762 +03:00 [INF] Executing endpoint 'mtsapp.Controllers.HomeController.CreateTransactionAsync (mtsapp)'
+2023-02-11 00:33:31.778 +03:00 [INF] Route matched with {action = "CreateTransaction", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Int32]] CreateTransactionAsync(mtsDAL.ViewModels.CreateTransaction) on controller mtsapp.Controllers.HomeController (mtsapp).
+2023-02-11 00:33:56.044 +03:00 [INF] Create Transaction {"TransactionType":"Debit","SenderBankName":"KCB","SenderBranchName":"Westlands","SenderBankSwiftCode":"1001a","SenderAccountNumber":368376669,"SenderAmount":13000,"Charges":1000,"Tarrif":0,"Tax":0,"ReceiverBankName":"KCB","ReceiverBranchName":"Westlands","ReceiverBankSwiftCode":"1001b","ReceiverAccountNumber":169253237,"$type":"CreateTransaction"}
+2023-02-11 00:34:10.786 +03:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-02-11 00:34:15.547 +03:00 [INF] Executing OkObjectResult, writing value of type 'mtsDAL.ViewModels.TransactionView'.
+2023-02-11 00:34:15.579 +03:00 [INF] Executed action mtsapp.Controllers.HomeController.CreateTransactionAsync (mtsapp) in 43800.6049ms
+2023-02-11 00:34:15.580 +03:00 [INF] Executed endpoint 'mtsapp.Controllers.HomeController.CreateTransactionAsync (mtsapp)'
+2023-02-11 00:34:15.583 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Home/transfers application/json-patch+json 369 - 200 716 application/json;+charset=utf-8 43836.0947ms
+2023-02-11 00:34:22.490 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Home/transfers application/json-patch+json 369
+2023-02-11 00:34:22.492 +03:00 [INF] CORS policy execution failed.
+2023-02-11 00:34:22.493 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 00:34:22.495 +03:00 [INF] CORS policy execution failed.
+2023-02-11 00:34:22.495 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 00:34:22.502 +03:00 [INF] Executing endpoint 'mtsapp.Controllers.HomeController.CreateTransactionAsync (mtsapp)'
+2023-02-11 00:34:22.503 +03:00 [INF] Route matched with {action = "CreateTransaction", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Int32]] CreateTransactionAsync(mtsDAL.ViewModels.CreateTransaction) on controller mtsapp.Controllers.HomeController (mtsapp).
+2023-02-11 00:34:24.576 +03:00 [INF] Create Transaction {"TransactionType":"Debit","SenderBankName":"KCB","SenderBranchName":"Westlands","SenderBankSwiftCode":"1001a","SenderAccountNumber":368376669,"SenderAmount":11000,"Charges":1000,"Tarrif":0,"Tax":0,"ReceiverBankName":"KCB","ReceiverBranchName":"Westlands","ReceiverBankSwiftCode":"1001b","ReceiverAccountNumber":169253237,"$type":"CreateTransaction"}
+2023-02-11 00:34:24.609 +03:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-02-11 00:34:27.206 +03:00 [ERR] Failed executing DbCommand (5ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?', @p7='?' (Size = 3), @p8='?' (Size = 5), @p9='?' (Size = 9), @p10='?' (Size = 7), @p11='?', @p12='?', @p13='?' (Size = 3), @p14='?' (Size = 5), @p15='?' (Size = 9), @p16='?', @p17='?', @p18='?', @p19='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Transactions" ("AccountId", "Active", "ApprovedBy", "Charges", "CreatedBy", "CreatedOn", "ReceiverAccountNumber", "ReceiverBankName", "ReceiverBankSwiftCode", "ReceiverBranchName", "ReferenceNumber", "SenderAccountNumber", "SenderAmount", "SenderBankName", "SenderBankSwiftCode", "SenderBranchName", "Tarrif", "Tax", "TransactionType", "UpdatedBy")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19);
+SELECT "Id"
+FROM "Transactions"
+WHERE changes() = 1 AND "rowid" = last_insert_rowid();
+2023-02-11 00:34:27.289 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'mtsDAL.Data.ApplicationDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'NOT NULL constraint failed: Transactions.ReceiverAmount'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'NOT NULL constraint failed: Transactions.ReceiverAmount'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-02-11 00:34:27.366 +03:00 [FTL] Error Creating Transaction 
+2023-02-11 00:34:27.480 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2023-02-11 00:34:27.481 +03:00 [INF] Executed action mtsapp.Controllers.HomeController.CreateTransactionAsync (mtsapp) in 4976.5224ms
+2023-02-11 00:34:27.485 +03:00 [INF] Executed endpoint 'mtsapp.Controllers.HomeController.CreateTransactionAsync (mtsapp)'
+2023-02-11 00:34:27.487 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Home/transfers application/json-patch+json 369 - 400 - text/plain;+charset=utf-8 4996.7043ms
+2023-02-11 00:37:54.391 +03:00 [INF]  Application  Starting.
+2023-02-11 00:37:57.676 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 00:37:58.461 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 00:37:58.462 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 00:37:58.462 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 00:37:58.463 +03:00 [INF] Hosting environment: Development
+2023-02-11 00:37:58.463 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplemts\mtsapp
+2023-02-11 00:37:59.741 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 00:37:59.955 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 218.1011ms
+2023-02-11 00:38:00.212 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 00:38:00.402 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 190.4262ms
+2023-02-11 00:38:22.026 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Home/transfers application/json-patch+json 369
+2023-02-11 00:38:22.036 +03:00 [INF] CORS policy execution failed.
+2023-02-11 00:38:22.038 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 00:38:22.043 +03:00 [INF] CORS policy execution failed.
+2023-02-11 00:38:22.043 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 00:38:22.093 +03:00 [INF] Executing endpoint 'mtsapp.Controllers.HomeController.CreateTransactionAsync (mtsapp)'
+2023-02-11 00:38:22.145 +03:00 [INF] Route matched with {action = "CreateTransaction", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Int32]] CreateTransactionAsync(mtsDAL.ViewModels.CreateTransaction) on controller mtsapp.Controllers.HomeController (mtsapp).
+2023-02-11 00:38:26.943 +03:00 [INF] Create Transaction {"TransactionType":"Debit","SenderBankName":"KCB","SenderBranchName":"Westlands","SenderBankSwiftCode":"1001a","SenderAccountNumber":368376669,"SenderAmount":11000,"Charges":1000,"Tarrif":0,"Tax":0,"ReceiverBankName":"KCB","ReceiverBranchName":"Westlands","ReceiverBankSwiftCode":"1001b","ReceiverAccountNumber":169253237,"$type":"CreateTransaction"}
+2023-02-11 00:38:27.093 +03:00 [WRN] 'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2023-02-11 00:38:28.216 +03:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-02-11 00:38:31.313 +03:00 [INF] Executing OkObjectResult, writing value of type 'mtsDAL.ViewModels.TransactionView'.
+2023-02-11 00:38:31.378 +03:00 [INF] Executed action mtsapp.Controllers.HomeController.CreateTransactionAsync (mtsapp) in 9226.3964ms
+2023-02-11 00:38:31.379 +03:00 [INF] Executed endpoint 'mtsapp.Controllers.HomeController.CreateTransactionAsync (mtsapp)'
+2023-02-11 00:38:31.387 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Home/transfers application/json-patch+json 369 - 200 729 application/json;+charset=utf-8 9361.0011ms
+2023-02-11 00:38:45.064 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Home/accounts - -
+2023-02-11 00:38:45.068 +03:00 [INF] Executing endpoint 'mtsapp.Controllers.HomeController.GetAccountDataAsync (mtsapp)'
+2023-02-11 00:38:45.078 +03:00 [INF] Route matched with {action = "GetAccountData", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[mtsDAL.ViewModels.ListResult`1[mtsDAL.ViewModels.AccountView]]] GetAccountDataAsync() on controller mtsapp.Controllers.HomeController (mtsapp).
+2023-02-11 00:38:45.119 +03:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-02-11 00:38:45.154 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results.
+2023-02-11 00:38:45.168 +03:00 [INF] Executing OkObjectResult, writing value of type 'mtsDAL.ViewModels.ListResult`1[[mtsDAL.ViewModels.AccountView, mtsDAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-02-11 00:38:45.189 +03:00 [INF] Executed action mtsapp.Controllers.HomeController.GetAccountDataAsync (mtsapp) in 110.5302ms
+2023-02-11 00:38:45.190 +03:00 [INF] Executed endpoint 'mtsapp.Controllers.HomeController.GetAccountDataAsync (mtsapp)'
+2023-02-11 00:38:45.195 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Home/accounts - - - 200 2191 application/json;+charset=utf-8 131.0576ms
+2023-02-11 00:39:23.230 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Home/transfers application/json-patch+json 369
+2023-02-11 00:39:23.235 +03:00 [INF] CORS policy execution failed.
+2023-02-11 00:39:23.237 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 00:39:23.239 +03:00 [INF] CORS policy execution failed.
+2023-02-11 00:39:23.239 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 00:39:23.243 +03:00 [INF] Executing endpoint 'mtsapp.Controllers.HomeController.CreateTransactionAsync (mtsapp)'
+2023-02-11 00:39:23.250 +03:00 [INF] Route matched with {action = "CreateTransaction", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Int32]] CreateTransactionAsync(mtsDAL.ViewModels.CreateTransaction) on controller mtsapp.Controllers.HomeController (mtsapp).
+2023-02-11 00:39:26.087 +03:00 [INF] Create Transaction {"TransactionType":"Debit","SenderBankName":"KCB","SenderBranchName":"Westlands","SenderBankSwiftCode":"1001a","SenderAccountNumber":368376669,"SenderAmount":11000,"Charges":1000,"Tarrif":0,"Tax":0,"ReceiverBankName":"KCB","ReceiverBranchName":"Westlands","ReceiverBankSwiftCode":"1001b","ReceiverAccountNumber":169253237,"$type":"CreateTransaction"}
+2023-02-11 00:39:29.982 +03:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-02-11 00:40:19.013 +03:00 [INF] Executing OkObjectResult, writing value of type 'mtsDAL.ViewModels.TransactionView'.
+2023-02-11 00:40:19.019 +03:00 [INF] Executed action mtsapp.Controllers.HomeController.CreateTransactionAsync (mtsapp) in 55766.6647ms
+2023-02-11 00:40:19.031 +03:00 [INF] Executed endpoint 'mtsapp.Controllers.HomeController.CreateTransactionAsync (mtsapp)'
+2023-02-11 00:40:19.034 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Home/transfers application/json-patch+json 369 - 200 729 application/json;+charset=utf-8 55804.0688ms
+2023-02-11 00:40:41.621 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Home/accounts - -
+2023-02-11 00:40:41.625 +03:00 [INF] Executing endpoint 'mtsapp.Controllers.HomeController.GetAccountDataAsync (mtsapp)'
+2023-02-11 00:40:41.632 +03:00 [INF] Route matched with {action = "GetAccountData", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[mtsDAL.ViewModels.ListResult`1[mtsDAL.ViewModels.AccountView]]] GetAccountDataAsync() on controller mtsapp.Controllers.HomeController (mtsapp).
+2023-02-11 00:40:41.640 +03:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-02-11 00:40:41.657 +03:00 [INF] Executing OkObjectResult, writing value of type 'mtsDAL.ViewModels.ListResult`1[[mtsDAL.ViewModels.AccountView, mtsDAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-02-11 00:40:41.661 +03:00 [INF] Executed action mtsapp.Controllers.HomeController.GetAccountDataAsync (mtsapp) in 22.2246ms
+2023-02-11 00:40:41.665 +03:00 [INF] Executed endpoint 'mtsapp.Controllers.HomeController.GetAccountDataAsync (mtsapp)'
+2023-02-11 00:40:41.666 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Home/accounts - - - 200 2191 application/json;+charset=utf-8 45.6413ms
+2023-02-11 00:41:41.705 +03:00 [INF]  Application  Starting.
+2023-02-11 00:41:45.115 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 00:41:45.703 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 00:41:45.713 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 00:41:45.713 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 00:41:45.714 +03:00 [INF] Hosting environment: Development
+2023-02-11 00:41:45.714 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplemts\mtsapp
+2023-02-11 00:41:46.853 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 00:41:47.066 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 220.9532ms
+2023-02-11 00:41:47.282 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 00:41:47.468 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 185.5629ms
+2023-02-11 00:42:05.883 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Home/transfers application/json-patch+json 369
+2023-02-11 00:42:05.894 +03:00 [INF] CORS policy execution failed.
+2023-02-11 00:42:05.895 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 00:42:05.899 +03:00 [INF] CORS policy execution failed.
+2023-02-11 00:42:05.899 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 00:42:05.958 +03:00 [INF] Executing endpoint 'mtsapp.Controllers.HomeController.CreateTransactionAsync (mtsapp)'
+2023-02-11 00:42:06.000 +03:00 [INF] Route matched with {action = "CreateTransaction", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Int32]] CreateTransactionAsync(mtsDAL.ViewModels.CreateTransaction) on controller mtsapp.Controllers.HomeController (mtsapp).
+2023-02-11 00:42:11.360 +03:00 [INF] Create Transaction {"TransactionType":"Debit","SenderBankName":"KCB","SenderBranchName":"Westlands","SenderBankSwiftCode":"1001a","SenderAccountNumber":368376669,"SenderAmount":11000,"Charges":1000,"Tarrif":0,"Tax":0,"ReceiverBankName":"KCB","ReceiverBranchName":"Westlands","ReceiverBankSwiftCode":"1001b","ReceiverAccountNumber":169253237,"$type":"CreateTransaction"}
+2023-02-11 00:42:11.491 +03:00 [WRN] 'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2023-02-11 00:42:12.533 +03:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-02-11 00:42:20.655 +03:00 [INF] Executing OkObjectResult, writing value of type 'mtsDAL.ViewModels.TransactionView'.
+2023-02-11 00:42:20.727 +03:00 [INF] Executed action mtsapp.Controllers.HomeController.CreateTransactionAsync (mtsapp) in 14719.3481ms
+2023-02-11 00:42:20.728 +03:00 [INF] Executed endpoint 'mtsapp.Controllers.HomeController.CreateTransactionAsync (mtsapp)'
+2023-02-11 00:42:20.734 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Home/transfers application/json-patch+json 369 - 200 729 application/json;+charset=utf-8 14850.5454ms
+2023-02-11 00:42:30.211 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Home/accounts - -
+2023-02-11 00:42:30.215 +03:00 [INF] Executing endpoint 'mtsapp.Controllers.HomeController.GetAccountDataAsync (mtsapp)'
+2023-02-11 00:42:30.220 +03:00 [INF] Route matched with {action = "GetAccountData", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[mtsDAL.ViewModels.ListResult`1[mtsDAL.ViewModels.AccountView]]] GetAccountDataAsync() on controller mtsapp.Controllers.HomeController (mtsapp).
+2023-02-11 00:42:30.265 +03:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-02-11 00:42:30.301 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results.
+2023-02-11 00:42:30.316 +03:00 [INF] Executing OkObjectResult, writing value of type 'mtsDAL.ViewModels.ListResult`1[[mtsDAL.ViewModels.AccountView, mtsDAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-02-11 00:42:30.347 +03:00 [INF] Executed action mtsapp.Controllers.HomeController.GetAccountDataAsync (mtsapp) in 124.769ms
+2023-02-11 00:42:30.349 +03:00 [INF] Executed endpoint 'mtsapp.Controllers.HomeController.GetAccountDataAsync (mtsapp)'
+2023-02-11 00:42:30.351 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Home/accounts - - - 200 2191 application/json;+charset=utf-8 140.1272ms
+2023-02-11 00:45:08.085 +03:00 [INF]  Application  Starting.
+2023-02-11 00:45:11.809 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 00:45:12.436 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 00:45:12.436 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 00:45:12.437 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 00:45:12.437 +03:00 [INF] Hosting environment: Development
+2023-02-11 00:45:12.438 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplemts\mtsapp
+2023-02-11 00:45:13.832 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 00:45:14.093 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 267.5132ms
+2023-02-11 00:45:14.333 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 00:45:14.496 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 162.7502ms
+2023-02-11 00:45:23.563 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Home/transfers application/json-patch+json 369
+2023-02-11 00:45:23.574 +03:00 [INF] CORS policy execution failed.
+2023-02-11 00:45:23.576 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 00:45:23.579 +03:00 [INF] CORS policy execution failed.
+2023-02-11 00:45:23.579 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 00:45:23.637 +03:00 [INF] Executing endpoint 'mtsapp.Controllers.HomeController.CreateTransactionAsync (mtsapp)'
+2023-02-11 00:45:23.679 +03:00 [INF] Route matched with {action = "CreateTransaction", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Int32]] CreateTransactionAsync(mtsDAL.ViewModels.CreateTransaction) on controller mtsapp.Controllers.HomeController (mtsapp).
+2023-02-11 00:45:24.022 +03:00 [INF] Create Transaction {"TransactionType":"Debit","SenderBankName":"KCB","SenderBranchName":"Westlands","SenderBankSwiftCode":"1001a","SenderAccountNumber":368376669,"SenderAmount":11000,"Charges":1000,"Tarrif":0,"Tax":0,"ReceiverBankName":"KCB","ReceiverBranchName":"Westlands","ReceiverBankSwiftCode":"1001b","ReceiverAccountNumber":169253237,"$type":"CreateTransaction"}
+2023-02-11 00:45:24.175 +03:00 [WRN] 'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2023-02-11 00:45:25.238 +03:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-02-11 00:45:26.592 +03:00 [INF] Executing OkObjectResult, writing value of type 'mtsDAL.ViewModels.TransactionView'.
+2023-02-11 00:45:26.807 +03:00 [INF] Executed action mtsapp.Controllers.HomeController.CreateTransactionAsync (mtsapp) in 3119.8472ms
+2023-02-11 00:45:26.810 +03:00 [INF] Executed endpoint 'mtsapp.Controllers.HomeController.CreateTransactionAsync (mtsapp)'
+2023-02-11 00:45:26.817 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Home/transfers application/json-patch+json 369 - 200 729 application/json;+charset=utf-8 3254.1582ms
+2023-02-11 00:45:34.194 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Home/transfers application/json-patch+json 369
+2023-02-11 00:45:34.200 +03:00 [INF] CORS policy execution failed.
+2023-02-11 00:45:34.201 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 00:45:34.203 +03:00 [INF] CORS policy execution failed.
+2023-02-11 00:45:34.205 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 00:45:34.212 +03:00 [INF] Executing endpoint 'mtsapp.Controllers.HomeController.CreateTransactionAsync (mtsapp)'
+2023-02-11 00:45:34.214 +03:00 [INF] Route matched with {action = "CreateTransaction", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Int32]] CreateTransactionAsync(mtsDAL.ViewModels.CreateTransaction) on controller mtsapp.Controllers.HomeController (mtsapp).
+2023-02-11 00:45:34.222 +03:00 [INF] Create Transaction {"TransactionType":"Debit","SenderBankName":"KCB","SenderBranchName":"Westlands","SenderBankSwiftCode":"1001a","SenderAccountNumber":368376669,"SenderAmount":11000,"Charges":1000,"Tarrif":0,"Tax":0,"ReceiverBankName":"KCB","ReceiverBranchName":"Westlands","ReceiverBankSwiftCode":"1001b","ReceiverAccountNumber":169253237,"$type":"CreateTransaction"}
+2023-02-11 00:45:34.274 +03:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-02-11 00:46:21.456 +03:00 [INF] Executing OkObjectResult, writing value of type 'mtsDAL.ViewModels.TransactionView'.
+2023-02-11 00:46:21.463 +03:00 [INF] Executed action mtsapp.Controllers.HomeController.CreateTransactionAsync (mtsapp) in 47246.9259ms
+2023-02-11 00:46:21.473 +03:00 [INF] Executed endpoint 'mtsapp.Controllers.HomeController.CreateTransactionAsync (mtsapp)'
+2023-02-11 00:46:21.480 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Home/transfers application/json-patch+json 369 - 200 729 application/json;+charset=utf-8 47285.3889ms
+2023-02-11 00:46:29.430 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Home/accounts - -
+2023-02-11 00:46:29.443 +03:00 [INF] Executing endpoint 'mtsapp.Controllers.HomeController.GetAccountDataAsync (mtsapp)'
+2023-02-11 00:46:29.449 +03:00 [INF] Route matched with {action = "GetAccountData", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[mtsDAL.ViewModels.ListResult`1[mtsDAL.ViewModels.AccountView]]] GetAccountDataAsync() on controller mtsapp.Controllers.HomeController (mtsapp).
+2023-02-11 00:46:29.470 +03:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-02-11 00:46:29.512 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results.
+2023-02-11 00:46:29.525 +03:00 [INF] Executing OkObjectResult, writing value of type 'mtsDAL.ViewModels.ListResult`1[[mtsDAL.ViewModels.AccountView, mtsDAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-02-11 00:46:29.546 +03:00 [INF] Executed action mtsapp.Controllers.HomeController.GetAccountDataAsync (mtsapp) in 96.1969ms
+2023-02-11 00:46:29.547 +03:00 [INF] Executed endpoint 'mtsapp.Controllers.HomeController.GetAccountDataAsync (mtsapp)'
+2023-02-11 00:46:29.550 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Home/accounts - - - 200 2191 application/json;+charset=utf-8 121.0885ms
+2023-02-11 00:50:10.127 +03:00 [INF]  Application  Starting.
+2023-02-11 00:50:13.018 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 00:50:13.780 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 00:50:13.781 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 00:50:13.781 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 00:50:13.782 +03:00 [INF] Hosting environment: Development
+2023-02-11 00:50:13.782 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplemts\mtsapp
+2023-02-11 00:50:15.243 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 00:50:15.408 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 169.9282ms
+2023-02-11 00:50:15.649 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 00:50:15.833 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 183.3926ms
+2023-02-11 00:50:30.707 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Home/transfers application/json-patch+json 369
+2023-02-11 00:50:30.719 +03:00 [INF] CORS policy execution failed.
+2023-02-11 00:50:30.719 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 00:50:30.724 +03:00 [INF] CORS policy execution failed.
+2023-02-11 00:50:30.725 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 00:50:30.780 +03:00 [INF] Executing endpoint 'mtsapp.Controllers.HomeController.CreateTransactionAsync (mtsapp)'
+2023-02-11 00:50:30.833 +03:00 [INF] Route matched with {action = "CreateTransaction", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Int32]] CreateTransactionAsync(mtsDAL.ViewModels.CreateTransaction) on controller mtsapp.Controllers.HomeController (mtsapp).
+2023-02-11 00:50:31.191 +03:00 [INF] Create Transaction {"TransactionType":"Debit","SenderBankName":"KCB","SenderBranchName":"Westlands","SenderBankSwiftCode":"1001a","SenderAccountNumber":368376669,"SenderAmount":11000,"Charges":1000,"Tarrif":0,"Tax":0,"ReceiverBankName":"KCB","ReceiverBranchName":"Westlands","ReceiverBankSwiftCode":"1001b","ReceiverAccountNumber":169253237,"$type":"CreateTransaction"}
+2023-02-11 00:50:31.358 +03:00 [WRN] 'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2023-02-11 00:50:32.344 +03:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-02-11 00:52:07.364 +03:00 [INF]  Application  Starting.
+2023-02-11 00:52:10.398 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 00:52:11.144 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 00:52:11.144 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 00:52:11.145 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 00:52:11.145 +03:00 [INF] Hosting environment: Development
+2023-02-11 00:52:11.145 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplemts\mtsapp
+2023-02-11 00:52:12.475 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 00:52:12.639 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 170.7283ms
+2023-02-11 00:52:12.863 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 00:52:13.096 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 232.6134ms
+2023-02-11 00:52:20.348 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Home/transfers application/json-patch+json 369
+2023-02-11 00:52:20.358 +03:00 [INF] CORS policy execution failed.
+2023-02-11 00:52:20.359 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 00:52:20.364 +03:00 [INF] CORS policy execution failed.
+2023-02-11 00:52:20.364 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 00:52:20.438 +03:00 [INF] Executing endpoint 'mtsapp.Controllers.HomeController.CreateTransactionAsync (mtsapp)'
+2023-02-11 00:52:20.481 +03:00 [INF] Route matched with {action = "CreateTransaction", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Int32]] CreateTransactionAsync(mtsDAL.ViewModels.CreateTransaction) on controller mtsapp.Controllers.HomeController (mtsapp).
+2023-02-11 00:52:20.825 +03:00 [INF] Create Transaction {"TransactionType":"Debit","SenderBankName":"KCB","SenderBranchName":"Westlands","SenderBankSwiftCode":"1001a","SenderAccountNumber":368376669,"SenderAmount":11000,"Charges":1000,"Tarrif":0,"Tax":0,"ReceiverBankName":"KCB","ReceiverBranchName":"Westlands","ReceiverBankSwiftCode":"1001b","ReceiverAccountNumber":169253237,"$type":"CreateTransaction"}
+2023-02-11 00:52:20.977 +03:00 [WRN] 'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2023-02-11 00:52:22.142 +03:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-02-11 01:08:28.736 +03:00 [INF]  Application  Starting.
+2023-02-11 01:08:32.116 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 01:08:32.765 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 01:08:32.766 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 01:08:32.766 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 01:08:32.767 +03:00 [INF] Hosting environment: Development
+2023-02-11 01:08:32.767 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplemts\mtsapp
+2023-02-11 01:08:34.104 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 01:08:34.259 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 160.1652ms
+2023-02-11 01:08:34.503 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 01:08:34.659 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 155.9359ms
+2023-02-11 01:08:40.082 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Home/accounts - -
+2023-02-11 01:08:40.158 +03:00 [INF] Executing endpoint 'mtsapp.Controllers.HomeController.GetAccountDataAsync (mtsapp)'
+2023-02-11 01:08:40.192 +03:00 [INF] Route matched with {action = "GetAccountData", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[mtsDAL.ViewModels.ListResult`1[mtsDAL.ViewModels.AccountView]]] GetAccountDataAsync() on controller mtsapp.Controllers.HomeController (mtsapp).
+2023-02-11 01:08:40.535 +03:00 [WRN] 'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2023-02-11 01:08:41.560 +03:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-02-11 01:08:41.922 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results.
+2023-02-11 01:08:42.005 +03:00 [INF] Executing OkObjectResult, writing value of type 'mtsDAL.ViewModels.ListResult`1[[mtsDAL.ViewModels.AccountView, mtsDAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-02-11 01:08:42.253 +03:00 [INF] Executed action mtsapp.Controllers.HomeController.GetAccountDataAsync (mtsapp) in 2049.2589ms
+2023-02-11 01:08:42.255 +03:00 [INF] Executed endpoint 'mtsapp.Controllers.HomeController.GetAccountDataAsync (mtsapp)'
+2023-02-11 01:08:42.261 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Home/accounts - - - 200 2191 application/json;+charset=utf-8 2178.8302ms
+2023-02-11 01:13:19.384 +03:00 [INF]  Application  Starting.
+2023-02-11 01:13:22.276 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 01:13:23.025 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 01:13:23.025 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 01:13:23.026 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 01:13:23.026 +03:00 [INF] Hosting environment: Development
+2023-02-11 01:13:23.026 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplemts\mtsapp
+2023-02-11 01:13:24.534 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 01:13:24.702 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 169.6609ms
+2023-02-11 01:13:24.915 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 01:13:25.157 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 241.6152ms
+2023-02-11 01:13:33.219 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Home/transfers application/json-patch+json 369
+2023-02-11 01:13:33.228 +03:00 [INF] CORS policy execution failed.
+2023-02-11 01:13:33.228 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 01:13:33.232 +03:00 [INF] CORS policy execution failed.
+2023-02-11 01:13:33.232 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 01:13:33.301 +03:00 [INF] Executing endpoint 'mtsapp.Controllers.HomeController.CreateTransactionAsync (mtsapp)'
+2023-02-11 01:13:33.345 +03:00 [INF] Route matched with {action = "CreateTransaction", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Int32]] CreateTransactionAsync(mtsDAL.ViewModels.CreateTransaction) on controller mtsapp.Controllers.HomeController (mtsapp).
+2023-02-11 01:13:33.756 +03:00 [INF] Create Transaction {"TransactionType":"Debit","SenderBankName":"KCB","SenderBranchName":"Westlands","SenderBankSwiftCode":"1001a","SenderAccountNumber":368376669,"SenderAmount":11000,"Charges":1000,"Tarrif":0,"Tax":0,"ReceiverBankName":"KCB","ReceiverBranchName":"Westlands","ReceiverBankSwiftCode":"1001b","ReceiverAccountNumber":169253237,"$type":"CreateTransaction"}
+2023-02-11 01:13:33.957 +03:00 [WRN] 'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2023-02-11 01:13:34.862 +03:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-02-11 01:13:35.695 +03:00 [INF] Executing OkObjectResult, writing value of type 'mtsDAL.ViewModels.TransactionView'.
+2023-02-11 01:13:35.760 +03:00 [INF] Executed action mtsapp.Controllers.HomeController.CreateTransactionAsync (mtsapp) in 2407.4936ms
+2023-02-11 01:13:35.761 +03:00 [INF] Executed endpoint 'mtsapp.Controllers.HomeController.CreateTransactionAsync (mtsapp)'
+2023-02-11 01:13:35.768 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Home/transfers application/json-patch+json 369 - 200 729 application/json;+charset=utf-8 2549.1220ms
+2023-02-11 01:13:46.472 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Home/accounts - -
+2023-02-11 01:13:46.475 +03:00 [INF] Executing endpoint 'mtsapp.Controllers.HomeController.GetAccountDataAsync (mtsapp)'
+2023-02-11 01:13:46.482 +03:00 [INF] Route matched with {action = "GetAccountData", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[mtsDAL.ViewModels.ListResult`1[mtsDAL.ViewModels.AccountView]]] GetAccountDataAsync() on controller mtsapp.Controllers.HomeController (mtsapp).
+2023-02-11 01:13:46.522 +03:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-02-11 01:13:46.559 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results.
+2023-02-11 01:13:46.576 +03:00 [INF] Executing OkObjectResult, writing value of type 'mtsDAL.ViewModels.ListResult`1[[mtsDAL.ViewModels.AccountView, mtsDAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-02-11 01:13:46.619 +03:00 [INF] Executed action mtsapp.Controllers.HomeController.GetAccountDataAsync (mtsapp) in 135.7308ms
+2023-02-11 01:13:46.622 +03:00 [INF] Executed endpoint 'mtsapp.Controllers.HomeController.GetAccountDataAsync (mtsapp)'
+2023-02-11 01:13:46.632 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Home/accounts - - - 200 2191 application/json;+charset=utf-8 160.7343ms
+2023-02-11 01:15:06.014 +03:00 [INF]  Application  Starting.
+2023-02-11 01:15:08.790 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 01:15:09.601 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 01:15:09.601 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 01:15:09.602 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 01:15:09.602 +03:00 [INF] Hosting environment: Development
+2023-02-11 01:15:09.603 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplemts\mtsapp
+2023-02-11 01:15:11.161 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 01:15:11.338 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 184.1429ms
+2023-02-11 01:15:11.572 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 01:15:11.778 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 205.5421ms
+2023-02-11 01:15:19.227 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Home/transfers application/json-patch+json 369
+2023-02-11 01:15:19.239 +03:00 [INF] CORS policy execution failed.
+2023-02-11 01:15:19.239 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 01:15:19.249 +03:00 [INF] CORS policy execution failed.
+2023-02-11 01:15:19.250 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 01:15:19.309 +03:00 [INF] Executing endpoint 'mtsapp.Controllers.HomeController.CreateTransactionAsync (mtsapp)'
+2023-02-11 01:15:19.352 +03:00 [INF] Route matched with {action = "CreateTransaction", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Int32]] CreateTransactionAsync(mtsDAL.ViewModels.CreateTransaction) on controller mtsapp.Controllers.HomeController (mtsapp).
+2023-02-11 01:15:19.691 +03:00 [INF] Create Transaction {"TransactionType":"Debit","SenderBankName":"KCB","SenderBranchName":"Westlands","SenderBankSwiftCode":"1001a","SenderAccountNumber":368376669,"SenderAmount":11000,"Charges":1000,"Tarrif":0,"Tax":0,"ReceiverBankName":"KCB","ReceiverBranchName":"Westlands","ReceiverBankSwiftCode":"1001b","ReceiverAccountNumber":169253237,"$type":"CreateTransaction"}
+2023-02-11 01:15:19.920 +03:00 [WRN] 'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2023-02-11 01:15:21.092 +03:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-02-11 01:18:21.578 +03:00 [INF]  Application  Starting.
+2023-02-11 01:18:25.034 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 01:18:25.643 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 01:18:25.644 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 01:18:25.645 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 01:18:25.645 +03:00 [INF] Hosting environment: Development
+2023-02-11 01:18:25.645 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplemts\mtsapp
+2023-02-11 01:18:27.072 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 01:18:27.246 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 181.4980ms
+2023-02-11 01:18:27.516 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 01:18:27.698 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 182.1510ms
+2023-02-11 01:18:37.237 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Home/transfers application/json-patch+json 369
+2023-02-11 01:18:37.246 +03:00 [INF] CORS policy execution failed.
+2023-02-11 01:18:37.247 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 01:18:37.253 +03:00 [INF] CORS policy execution failed.
+2023-02-11 01:18:37.253 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 01:18:37.310 +03:00 [INF] Executing endpoint 'mtsapp.Controllers.HomeController.CreateTransactionAsync (mtsapp)'
+2023-02-11 01:18:37.363 +03:00 [INF] Route matched with {action = "CreateTransaction", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Int32]] CreateTransactionAsync(mtsDAL.ViewModels.CreateTransaction) on controller mtsapp.Controllers.HomeController (mtsapp).
+2023-02-11 01:18:37.695 +03:00 [INF] Create Transaction {"TransactionType":"Debit","SenderBankName":"KCB","SenderBranchName":"Westlands","SenderBankSwiftCode":"1001a","SenderAccountNumber":368376669,"SenderAmount":11000,"Charges":1000,"Tarrif":0,"Tax":0,"ReceiverBankName":"KCB","ReceiverBranchName":"Westlands","ReceiverBankSwiftCode":"1001b","ReceiverAccountNumber":169253237,"$type":"CreateTransaction"}
+2023-02-11 01:18:37.841 +03:00 [WRN] 'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2023-02-11 01:18:38.983 +03:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-02-11 01:18:40.566 +03:00 [ERR] The instance of entity type 'Account' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+2023-02-11 01:18:40.650 +03:00 [ERR] The instance of entity type 'Account' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+2023-02-11 01:18:40.669 +03:00 [INF] Executing OkObjectResult, writing value of type 'mtsDAL.ViewModels.TransactionView'.
+2023-02-11 01:18:40.756 +03:00 [INF] Executed action mtsapp.Controllers.HomeController.CreateTransactionAsync (mtsapp) in 3381.1779ms
+2023-02-11 01:18:40.761 +03:00 [INF] Executed endpoint 'mtsapp.Controllers.HomeController.CreateTransactionAsync (mtsapp)'
+2023-02-11 01:18:40.772 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Home/transfers application/json-patch+json 369 - 200 730 application/json;+charset=utf-8 3535.3792ms
+2023-02-11 01:18:56.736 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Home/transfers application/json-patch+json 369
+2023-02-11 01:18:56.737 +03:00 [INF] CORS policy execution failed.
+2023-02-11 01:18:56.739 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 01:18:56.741 +03:00 [INF] CORS policy execution failed.
+2023-02-11 01:18:56.745 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 01:18:56.749 +03:00 [INF] Executing endpoint 'mtsapp.Controllers.HomeController.CreateTransactionAsync (mtsapp)'
+2023-02-11 01:18:56.754 +03:00 [INF] Route matched with {action = "CreateTransaction", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Int32]] CreateTransactionAsync(mtsDAL.ViewModels.CreateTransaction) on controller mtsapp.Controllers.HomeController (mtsapp).
+2023-02-11 01:18:56.759 +03:00 [INF] Create Transaction {"TransactionType":"Debit","SenderBankName":"KCB","SenderBranchName":"Westlands","SenderBankSwiftCode":"1001a","SenderAccountNumber":368376669,"SenderAmount":11000,"Charges":1000,"Tarrif":0,"Tax":0,"ReceiverBankName":"KCB","ReceiverBranchName":"Westlands","ReceiverBankSwiftCode":"1001b","ReceiverAccountNumber":169253237,"$type":"CreateTransaction"}
+2023-02-11 01:18:56.821 +03:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-02-11 01:20:13.382 +03:00 [INF]  Application  Starting.
+2023-02-11 01:20:16.662 +03:00 [INF] User profile is available. Using 'C:\Users\moturi george\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-02-11 01:20:17.227 +03:00 [INF] Now listening on: https://localhost:5001
+2023-02-11 01:20:17.230 +03:00 [INF] Now listening on: http://localhost:5000
+2023-02-11 01:20:17.235 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-11 01:20:17.236 +03:00 [INF] Hosting environment: Development
+2023-02-11 01:20:17.236 +03:00 [INF] Content root path: C:\Users\moturi george\source\repos\simplemts\mtsapp
+2023-02-11 01:20:18.761 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-02-11 01:20:18.953 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 198.2249ms
+2023-02-11 01:20:19.186 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-02-11 01:20:19.427 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 241.3972ms
+2023-02-11 01:20:27.861 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Home/transfers application/json-patch+json 369
+2023-02-11 01:20:27.871 +03:00 [INF] CORS policy execution failed.
+2023-02-11 01:20:27.871 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 01:20:27.874 +03:00 [INF] CORS policy execution failed.
+2023-02-11 01:20:27.875 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 01:20:27.937 +03:00 [INF] Executing endpoint 'mtsapp.Controllers.HomeController.CreateTransactionAsync (mtsapp)'
+2023-02-11 01:20:27.994 +03:00 [INF] Route matched with {action = "CreateTransaction", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Int32]] CreateTransactionAsync(mtsDAL.ViewModels.CreateTransaction) on controller mtsapp.Controllers.HomeController (mtsapp).
+2023-02-11 01:20:28.318 +03:00 [INF] Create Transaction {"TransactionType":"Debit","SenderBankName":"KCB","SenderBranchName":"Westlands","SenderBankSwiftCode":"1001a","SenderAccountNumber":368376669,"SenderAmount":11000,"Charges":1000,"Tarrif":0,"Tax":0,"ReceiverBankName":"KCB","ReceiverBranchName":"Westlands","ReceiverBankSwiftCode":"1001b","ReceiverAccountNumber":169253237,"$type":"CreateTransaction"}
+2023-02-11 01:20:28.496 +03:00 [WRN] 'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2023-02-11 01:20:29.645 +03:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-02-11 01:20:41.230 +03:00 [INF] Executing OkObjectResult, writing value of type 'mtsDAL.ViewModels.TransactionView'.
+2023-02-11 01:20:41.319 +03:00 [INF] Executed action mtsapp.Controllers.HomeController.CreateTransactionAsync (mtsapp) in 13311.2863ms
+2023-02-11 01:20:41.321 +03:00 [INF] Executed endpoint 'mtsapp.Controllers.HomeController.CreateTransactionAsync (mtsapp)'
+2023-02-11 01:20:41.326 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Home/transfers application/json-patch+json 369 - 200 730 application/json;+charset=utf-8 13465.8081ms
+2023-02-11 01:20:51.265 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Home/accounts - -
+2023-02-11 01:20:51.271 +03:00 [INF] Executing endpoint 'mtsapp.Controllers.HomeController.GetAccountDataAsync (mtsapp)'
+2023-02-11 01:20:51.284 +03:00 [INF] Route matched with {action = "GetAccountData", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[mtsDAL.ViewModels.ListResult`1[mtsDAL.ViewModels.AccountView]]] GetAccountDataAsync() on controller mtsapp.Controllers.HomeController (mtsapp).
+2023-02-11 01:20:51.352 +03:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-02-11 01:20:51.409 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results.
+2023-02-11 01:20:51.434 +03:00 [INF] Executing OkObjectResult, writing value of type 'mtsDAL.ViewModels.ListResult`1[[mtsDAL.ViewModels.AccountView, mtsDAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-02-11 01:20:51.475 +03:00 [INF] Executed action mtsapp.Controllers.HomeController.GetAccountDataAsync (mtsapp) in 185.9009ms
+2023-02-11 01:20:51.475 +03:00 [INF] Executed endpoint 'mtsapp.Controllers.HomeController.GetAccountDataAsync (mtsapp)'
+2023-02-11 01:20:51.479 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Home/accounts - - - 200 2190 application/json;+charset=utf-8 213.6310ms
+2023-02-11 01:21:11.934 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Home/transfers application/json-patch+json 369
+2023-02-11 01:21:11.953 +03:00 [INF] CORS policy execution failed.
+2023-02-11 01:21:11.955 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 01:21:11.961 +03:00 [INF] CORS policy execution failed.
+2023-02-11 01:21:11.962 +03:00 [INF] Request origin https://localhost:5001 does not have permission to access the resource.
+2023-02-11 01:21:11.965 +03:00 [INF] Executing endpoint 'mtsapp.Controllers.HomeController.CreateTransactionAsync (mtsapp)'
+2023-02-11 01:21:11.967 +03:00 [INF] Route matched with {action = "CreateTransaction", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Int32]] CreateTransactionAsync(mtsDAL.ViewModels.CreateTransaction) on controller mtsapp.Controllers.HomeController (mtsapp).
+2023-02-11 01:21:11.977 +03:00 [INF] Create Transaction {"TransactionType":"Debit","SenderBankName":"KCB","SenderBranchName":"Westlands","SenderBankSwiftCode":"1001a","SenderAccountNumber":368376669,"SenderAmount":11000,"Charges":1000,"Tarrif":0,"Tax":0,"ReceiverBankName":"KCB","ReceiverBranchName":"Westlands","ReceiverBankSwiftCode":"1001b","ReceiverAccountNumber":169253237,"$type":"CreateTransaction"}
+2023-02-11 01:21:11.988 +03:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2023-02-11 01:21:12.019 +03:00 [INF] Executing OkObjectResult, writing value of type 'mtsDAL.ViewModels.TransactionView'.
+2023-02-11 01:21:12.021 +03:00 [INF] Executed action mtsapp.Controllers.HomeController.CreateTransactionAsync (mtsapp) in 52.0226ms
+2023-02-11 01:21:12.023 +03:00 [INF] Executed endpoint 'mtsapp.Controllers.HomeController.CreateTransactionAsync (mtsapp)'
+2023-02-11 01:21:12.027 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Home/transfers application/json-patch+json 369 - 200 716 application/json;+charset=utf-8 93.6191ms
