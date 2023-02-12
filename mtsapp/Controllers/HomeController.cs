@@ -1,11 +1,8 @@
 ﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using mtsDAL.Services.IServices;
 using mtsDAL.ViewModels;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace mtsapp.Controllers
@@ -22,7 +19,9 @@ namespace mtsapp.Controllers
             _accountService = accountService;
         }
 
-
+        /// <summary>
+        ///  This endpoint is used to create an account
+        /// </summary>
         [HttpPost, Route("accounts")]
         public async Task<ActionResult<string>> SaveAccountDataAsync([FromBody] CreateAccountView model)
         {
@@ -36,6 +35,10 @@ namespace mtsapp.Controllers
             }
         }
 
+        /// <summary>
+        ///  This endpoint is used to get all accounts that are both active and dormant
+        /// </summary>
+        [Obsolete]
         [HttpGet, Route("accounts")]
         public async Task<ActionResult<ListResult<AccountView>>> GetAccountDataAsync()
         {
@@ -49,7 +52,9 @@ namespace mtsapp.Controllers
             }
         }
 
-
+        /// <summary>
+        ///  This endpoint is used to get a specific account that might be active or dormant
+        /// </summary>
         [HttpGet, Route("accounts/{id}")]
         public async Task<ActionResult<ListResult<AccountView>>> GetAccountDataAsync([FromRoute] int id)
         {
@@ -63,7 +68,9 @@ namespace mtsapp.Controllers
             }
         }
 
-
+        /// <summary>
+        ///  This endpoint is used transfer amounts between active accounts
+        /// </summary>
         [HttpPost, Route("transfers")]
         public async Task<ActionResult<int>> CreateTransactionAsync([FromBody] CreateTransaction model)
         {

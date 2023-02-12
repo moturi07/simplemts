@@ -1,16 +1,15 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace mtsapp.Controllers
 {
-    public class UserController : Controller
+    public class UserController : ControllerBase
     {
-        public IActionResult Index()
+        /// <summary>
+        ///  This Endpoint does not work
+        /// </summary>
+        public IActionResult Login()
         {
-            return View();
+            return Ok();
         }
     }
 }

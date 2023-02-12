@@ -21,52 +21,68 @@ namespace mtsDAL.Services
             _logger = logger;
         }
 
+        /// <summary>
+        ///  Method to create a transaction
+        /// </summary>
         public async Task<TransactionView> CreateTransactionAsync(CreateTransaction transaction)
         {
             try
             {
                 _logger.LogInformation("Create Transaction {@model}", transaction);
                 string error = string.Empty;
+
+                //create transaction response
                 var _transactionview = new TransactionView();
+
+                //check if the transaction you are about to create is null or not
                 if (transaction != null)
                 {
-                    decimal totalcharges = ((transaction.SenderAmount * transaction.Tax) / 100) + transaction.Tarrif + transaction.Charges;
+                    //Compute transaction charges
+                    decimal totalcharges = ((transaction.SenderAmount * transaction.Tax) / 100) + (transaction.SenderAmount * (transaction.Tarrif / 100)) + transaction.Charges;
+                    //compute totoal amount
                     decimal totalamount = transaction.SenderAmount + totalcharges;
+                    //check if transaction checks are all valid
                     error = TransactionIsValid(transaction);
+                    //get the sender details
                     var sender_data = await _appdbcontext.Accounts.Where(q => q.AccountNumber == transaction.SenderAccountNumber && q.Active).AsQueryable().AsNoTracking().FirstOrDefaultAsync();
                     if (sender_data == null)
                     {
-                        error = "The sender account does not exist";
+                        error = "The sender account does not exist, is dormant or suspended";
                     }
                     else if (totalamount > sender_data.Balance)
                     {
                         error = "The sender balance is insufficient";
                     }
 
-
+                    //get the receiver details
                     var receiver_data = await _appdbcontext.Accounts.Where(q => q.AccountNumber == transaction.ReceiverAccountNumber && q.Active).AsQueryable().AsNoTracking().FirstOrDefaultAsync();
                     if (receiver_data == null)
                     {
-                        error = "The Receiver account does not exist";
+                        error = "The Receiver account does not exist, is dormant or suspended";
                     }
 
+                    //if all transaction checks are okay, we proceed with the transaction
                     if (string.IsNullOrEmpty(error))
                     {
                         var _transaction = (Transaction)transaction;
                         _transaction.ReferenceNumber = GenerateReferenceNumber(7);
                         _transaction.ReceiverAmount = transaction.SenderAmount - transaction.Charges;
                         //_transaction.CreatedBy = userId;
-                        _appdbcontext.Transactions.Add(_transaction);                        
+                        _appdbcontext.Transactions.Add(_transaction);    
+                        //check if transaction is created
                         int rowsAffected = await _appdbcontext.SaveChangesAsync();
                         if (rowsAffected > 0)
                         {
+                            //debit sender account and update the database
                             await UpdateAccountBalance(transaction.SenderAccountNumber, sender_data.Balance - transaction.SenderAmount);
+                            //credit receiver details and update the data
                             await UpdateAccountBalance(transaction.ReceiverAccountNumber, (receiver_data.Balance + transaction.SenderAmount)-transaction.Charges);
-
+                            //return the transaction details
                             _transactionview = (TransactionView)_transaction;
                         }
                         else
                         {
+                            _transactionview.ErrorMessage = "Unable to create the Transaction";
                         }                        
                     }
                     else
@@ -87,6 +103,9 @@ namespace mtsDAL.Services
             }
         }
 
+        /// <summary>
+        ///  Method to get account details by id
+        /// </summary>
         public async Task<ListResult<AccountView>> GetAccountDataAsync(int id)
         {
             try
@@ -120,6 +139,9 @@ namespace mtsDAL.Services
             }
         }
 
+        /// <summary>
+        ///  Method to Create an account
+        /// </summary>
         public async Task<int> SaveAccountDataAsync(CreateAccountView model)
         {
             try
@@ -141,7 +163,9 @@ namespace mtsDAL.Services
         }
 
 
-
+        /// <summary>
+        ///  Private Method to check generate account numbers
+        /// </summary>
         public static long GenerateAccountNumber(int length)
         {
             const string chars = "0123456789";
@@ -150,13 +174,19 @@ namespace mtsDAL.Services
             return long.Parse(sd);
         }
 
-        public static string GenerateReferenceNumber(int length)
+        /// <summary>
+        ///  Private Method to check generate transaction reference
+        /// </summary>
+        private static string GenerateReferenceNumber(int length)
         {
             const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
             return new string(Enumerable.Repeat(chars, length)
                 .Select(s => s[random.Next(s.Length)]).ToArray());
         }
 
+        /// <summary>
+        ///  Private Method to check validity of a transaction
+        /// </summary>
         private string TransactionIsValid(CreateTransaction transaction)
         {
             try
@@ -180,6 +210,9 @@ namespace mtsDAL.Services
             }
         }
 
+        /// <summary>
+        ///  Private Method to update account balance given a specific id with the given amount
+        /// </summary>
         private async Task<string> UpdateAccountBalance(int AccountNumber, decimal amount)
         {
             try
@@ -195,8 +228,7 @@ namespace mtsDAL.Services
                     _appdbcontext.Accounts.Update(data);
                     int rwsa = await _appdbcontext.SaveChangesAsync();
                     return null;
-                }
-                
+                }                
             }
             catch (Exception ex)
             {
@@ -205,6 +237,9 @@ namespace mtsDAL.Services
             }
         }
 
+        /// <summary>
+        ///  Method to get all accounts
+        /// </summary>
         public async Task<ListResult<AccountView>> GetAccountDataAsync()
         {
             try

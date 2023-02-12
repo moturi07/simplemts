@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace mtsDAL.ViewModels
 {
+    //Allows to send response in a list format
     public class ListResult<T>
     {
         public IEnumerable<T> Items { get; set; }
