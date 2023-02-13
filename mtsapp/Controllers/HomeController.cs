@@ -22,6 +22,9 @@ namespace mtsapp.Controllers
         /// <summary>
         ///  This endpoint is used to create an account
         /// </summary>
+        /// <remarks>
+        /// AccountType can be Current, Savings, Business
+        /// </remarks>remarks>
         [HttpPost, Route("accounts")]
         public async Task<ActionResult<string>> SaveAccountDataAsync([FromBody] CreateAccountView model)
         {

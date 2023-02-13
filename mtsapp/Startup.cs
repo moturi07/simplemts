@@ -11,6 +11,7 @@ using mtsDAL.Data;
 using mtsDAL.Services;
 using mtsDAL.Services.IServices;
 using Serilog;
+using System.Reflection;
 
 namespace mtsapp
 {
@@ -63,6 +64,8 @@ namespace mtsapp
 
             services.AddSwaggerGen(c =>
             {
+                var xmlFilename = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                c.IncludeXmlComments(xmlFilename);
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Version = "v1",

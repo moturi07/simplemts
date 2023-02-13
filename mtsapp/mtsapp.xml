@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>mtsapp</name>
+    </assembly>
+    <members>
+        <member name="M:mtsapp.Controllers.HomeController.SaveAccountDataAsync(mtsDAL.ViewModels.CreateAccountView)">
+            <summary>
+             This endpoint is used to create an account
+            </summary>
+        </member>
+        <member name="M:mtsapp.Controllers.HomeController.GetAccountDataAsync">
+            <summary>
+             This endpoint is used to get all accounts that are both active and dormant
+            </summary>
+        </member>
+        <member name="M:mtsapp.Controllers.HomeController.GetAccountDataAsync(System.Int32)">
+            <summary>
+             This endpoint is used to get a specific account that might be active or dormant
+            </summary>
+        </member>
+        <member name="M:mtsapp.Controllers.HomeController.CreateTransactionAsync(mtsDAL.ViewModels.CreateTransaction)">
+            <summary>
+             This endpoint is used transfer amounts between active accounts
+            </summary>
+        </member>
+        <member name="M:mtsapp.Controllers.UserController.Login">
+            <summary>
+             This Endpoint does not work
+            </summary>
+        </member>
+    </members>
+</doc>
